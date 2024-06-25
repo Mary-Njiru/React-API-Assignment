@@ -36,7 +36,7 @@ function Login ({onLoginSucess}){
                         <form onSubmit={handleLogin}>
                             <h2>Login</h2>
                             {error && <p className="error">{error}</p>}
-                            <input placeholder="Enter username" type="text" value={username} onChange={(event) => setUserName(event.target.value)}
+                            <input placeholder="Enter username" type="text" value={userName} onChange={(event) => setUserName(event.target.value)}
                             />
                             <input placeholder="Enter password" type="password" value={password} onChange={(event) => setPassword(event.target.value)}
                             />

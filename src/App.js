@@ -6,10 +6,7 @@ import {Route,Routes} from 'react-router-dom'
 import './index.css';
 export function Introduction (){
  return(
-   <h1>I am in Lovelace</h1>
-
-
-  
+   <h1>My name is Njiru</h1> 
  )
 }
 
