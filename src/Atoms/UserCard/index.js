@@ -1,10 +1,10 @@
 import './index.css';
 
-const UserCard = ({image, fullName, id})=>{
+const UserCard = ({image, fullName, age, gender, email})=>{
     return (
-        <div className='user-card'>
+        <div>
             <img src = {image} alt = {`${fullName} profile`}/>
-            <h3>{fullName}</h3>
+            <h2>{fullName}</h2>
         </div>
     );
 
